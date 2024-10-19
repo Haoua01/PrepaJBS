@@ -143,11 +143,13 @@ img {
 
 /* For "Cultiver l'excellence" (image on left) */
 .image-left {
-    order: -1;                 
+    order: -1;
+    display: block; /* Center the image */
 }
 
 .image-right {
-    order: -1;                  
+    order: -1; 
+    display: block; /* Center the image */
 }
 
 /* Responsive Design: Stack text and image on smaller screens */
