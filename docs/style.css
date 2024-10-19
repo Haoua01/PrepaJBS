@@ -137,7 +137,7 @@ footer {
 }
 
 .content img {
-    max-width: 20%; /* Set a max width for the images */
+    max-width: 10%; /* Set a max width for the images */
     height: auto; /* Maintain aspect ratio */
     margin-left: 20px; /* Add some margin around images */
 }
