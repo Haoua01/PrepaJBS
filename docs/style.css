@@ -128,17 +128,12 @@ footer {
 
 .content {
     display: flex;
-    align-items: flex-start; /* Align items to the start for better text and image positioning */
+    align-items: center; /* Align items to the start for better text and image positioning */
     margin-bottom: 40px; /* Space between sections */
 }
 
-.text-content {
-    flex: 1; /* Allow the text to take up the remaining space */
-    margin-right: 20px; /* Add spacing between the text and image */
-}
-
 .content img {
-    max-width: 15%; /* Set a max width for the images */
+    max-width: 40%; /* Set a max width for the images */
     height: auto; /* Maintain aspect ratio */
 }
 
