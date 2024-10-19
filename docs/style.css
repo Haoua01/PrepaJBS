@@ -105,6 +105,7 @@ h3 {
 h4 {
     font-size: 1.5rem; /* Taille des sous-sous-titres */
     margin-top: 20px; /* Espacement au-dessus des sous-sous-titres */
+    text-align: center;
 }
 
 p {
