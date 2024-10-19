@@ -126,18 +126,25 @@ footer {
 
 .content {
     display: flex;
-    align-items: center; /* Aligne verticalement le texte et l'image */
-    margin-bottom: 40px; /* Espace entre les sous-parties */
+    align-items: center; /* Center the items vertically */
+    margin-bottom: 40px; /* Space between sections */
+}
+
+.content img {
+    max-width: 40%; /* Set a max width for the images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px; /* Add some margin around images */
 }
 
 .image-left {
-    margin-right: 20px; /* Espace entre l'image et le texte */
-    width: 40%; /* Largeur de l'image */
-    height: auto; /* Garde le ratio de l'image */
+    order: 1; /* Ensure this image is on the left */
 }
 
 .image-right {
-    margin-left: 20px; /* Espace entre l'image et le texte */
-    width: 40%; /* Largeur de l'image */
-    height: auto; /* Garde le ratio de l'image */
+    order: 2; /* Ensure this image is on the right */
 }
+
+.content p {
+    flex: 1; /* Allow the paragraph to take up remaining space */
+}
+
