@@ -1,41 +1,94 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #0044cc; /* Bleu */
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar a:hover, .navbar .active {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+}
+
+.cta {
+    background-color: #f04f23;
     color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #d4411a;
+}
+
+.banner {
+    position: relative;
     text-align: center;
-    padding: 20px;
+    background: url('your-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
 }
 
-.logo {
-    width: 100px;
+.logo-banner {
+    width: 150px;
+    height: auto;
 }
 
-.devise {
-    font-style: italic;
-    color: #ffd700; /* Jaune */
+.slogan {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
-main {
-    padding: 20px;
-    background-color: white;
-}
-
-h2 {
-    color: #cc0000; /* Rouge */
+.section {
+    padding: 60px 20px;
+    text-align: center;
 }
 
 footer {
-    background-color: #0044cc;
+    background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 20px;
 }
