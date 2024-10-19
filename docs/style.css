@@ -58,7 +58,7 @@ header {
 .banner {
     position: relative;
     text-align: center;
-    background: url('your-image.jpg') no-repeat center center/cover;
+    background: linear-gradient(135deg, rgba(0, 0, 255, 0.7), rgba(255, 255, 0, 0.7), rgba(255, 0, 0, 0.7)); /* Gradient from blue to yellow to red */
     height: 400px;
     display: flex;
     justify-content: center;
@@ -66,6 +66,7 @@ header {
     flex-direction: column;
     color: white;
 }
+
 
 .logo-banner {
     width: 80%; /* Increase the width to 80% of its container */
