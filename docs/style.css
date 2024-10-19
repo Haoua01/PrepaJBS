@@ -134,13 +134,6 @@ footer {
     margin-bottom: 40px;        /* Add space between content blocks */
 }
 
-/* Text Container */
-.text-content {
-    flex: 1;                    /* Allow text to take available space */
-    padding-right: 20px;        /* Add some space between text and image */
-    text-align: justify;        /* Justify text to align both left and right */
-}
-
 /* Image Container */
 img {
     max-width: 40%;             /* Ensure image takes up no more than 40% of the container width */
