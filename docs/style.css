@@ -68,9 +68,9 @@ header {
 }
 
 .logo-banner {
-    width: 150%; /* Make the logo take the full width of its container */
+    width: 80%; /* Increase the width to 80% of its container */
     height: auto; /* Maintain aspect ratio */
-    max-width: 100%; /* Ensure it doesn't overflow the container */
+    max-width: 800px; /* Set a maximum width for the logo */
     display: block; /* Center the image */
 }
 
