@@ -127,7 +127,7 @@ footer {
 
 .content {
     display: flex;
-    align-items: flex-start; 
+    align-items: flex-start; /* Align items to the start for better text and image positioning */
     margin-bottom: 40px; /* Space between sections */
 }
 
@@ -137,19 +137,14 @@ footer {
 }
 
 .content img {
-    max-width: 20%; /* Set a max width for the images */
+    max-width: 15%; /* Set a max width for the images */
     height: auto; /* Maintain aspect ratio */
-    margin-left: 20px; /* Add some margin around images */
-}
-
-.image-right {
-    order: 2; /* Ensure this image is on the right */
 }
 
 .image-left {
     order: 1; /* Ensure this image is on the left */
 }
 
-.content p {
-    flex: 1; /* Allow the paragraph to take up remaining space */
+.image-right {
+    order: 2; /* Ensure this image is on the right */
 }
