@@ -1,0 +1,48 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prépa Joseph Brahim SEID</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #0044cc; /* Bleu */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 100px;
+        }
+
+        .devise {
+            font-style: italic;
+            color: #ffd700; /* Jaune */
+        }
+
+        main {
+            padding: 20px;
+            background-color: white;
+        }
+
+        h2 {
+            color: #cc0000; /* Rouge */
+        }
+
+        footer {
+            background-color: #0044cc;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
