@@ -123,3 +123,21 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+.content {
+    display: flex;
+    align-items: center; /* Aligne verticalement le texte et l'image */
+    margin-bottom: 40px; /* Espace entre les sous-parties */
+}
+
+.image-left {
+    margin-right: 20px; /* Espace entre l'image et le texte */
+    width: 40%; /* Largeur de l'image */
+    height: auto; /* Garde le ratio de l'image */
+}
+
+.image-right {
+    margin-left: 20px; /* Espace entre l'image et le texte */
+    width: 40%; /* Largeur de l'image */
+    height: auto; /* Garde le ratio de l'image */
+}
