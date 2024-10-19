@@ -143,9 +143,11 @@ img {
 
 /* For "Cultiver l'excellence" (image on left) */
 .image-left {
-    order: -1;                  /* Place the image before the text */
-    margin-right: 20px;         /* Space between image and text */
-    margin-left: 0;             /* Reset margin-left */
+    order: -1;                 
+}
+
+.image-right {
+    order: -1;                  
 }
 
 /* Responsive Design: Stack text and image on smaller screens */
