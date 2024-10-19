@@ -117,28 +117,34 @@ ul {
     margin-bottom: 20px; /* Espacement sous les listes */
 }
 
-.content {
-    display: flex;
-    align-items: center; /* Aligne verticalement le texte et l'image */
-    margin-bottom: 40px; /* Espace entre les sous-parties */
-}
-
-.image-left {
-    margin-right: 20px; /* Espace entre l'image et le texte */
-    width: 40%; /* Largeur de l'image */
-    height: auto; /* Garde le ratio de l'image */
-}
-
-.image-right {
-    margin-left: 20px; /* Espace entre l'image et le texte */
-    width: 40%; /* Largeur de l'image */
-    height: auto; /* Garde le ratio de l'image */
-}
-
 
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start; /* Align items to the start for better text and image positioning */
+    margin-bottom: 40px; /* Space between sections */
+}
+
+.text-content {
+    flex: 1; /* Allow the text to take up the remaining space */
+    margin-right: 20px; /* Add spacing between the text and image */
+}
+
+.content img {
+    max-width: 40%; /* Set a max width for the images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image-left {
+    order: 1; /* Ensure this image is on the left */
+}
+
+.image-right {
+    order: 2; /* Ensure this image is on the right */
 }
