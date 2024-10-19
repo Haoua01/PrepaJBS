@@ -117,48 +117,28 @@ ul {
     margin-bottom: 20px; /* Espacement sous les listes */
 }
 
+.content {
+    display: flex;
+    align-items: center; /* Aligne verticalement le texte et l'image */
+    margin-bottom: 40px; /* Espace entre les sous-parties */
+}
+
+.image-left {
+    margin-right: 20px; /* Espace entre l'image et le texte */
+    width: 40%; /* Largeur de l'image */
+    height: auto; /* Garde le ratio de l'image */
+}
+
+.image-right {
+    margin-left: 20px; /* Espace entre l'image et le texte */
+    width: 40%; /* Largeur de l'image */
+    height: auto; /* Garde le ratio de l'image */
+}
+
+
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
-}
-
-.content {
-    display: flex;
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-    align-items: flex-start; /* Align items at the start */
-    margin-bottom: 40px; /* Space between sections */
-}
-
-.content img {
-    max-width: 40%; /* Set a max width for the images */
-    height: auto; /* Maintain aspect ratio */
-    margin: 20px; /* Add some margin around images */
-    flex-shrink: 0; /* Prevent images from shrinking */
-}
-
-.image-left {
-    order: 1; /* Ensure this image is on the left */
-}
-
-.image-right {
-    order: 2; /* Ensure this image is on the right */
-}
-
-.content p {
-    flex: 1; /* Allow the paragraph to take up remaining space */
-    margin: 20px; /* Add some margin around the paragraph */
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .content {
-        flex-direction: column; /* Stack content vertically on smaller screens */
-        align-items: center; /* Center items */
-    }
-
-    .content img {
-        max-width: 80%; /* Adjust image size on smaller screens */
-    }
 }
