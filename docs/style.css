@@ -1,3 +1,4 @@
+/* Styles globaux */
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +40,8 @@ header {
     font-weight: 500;
 }
 
-.navbar a:hover, .navbar .active {
+.navbar a:hover,
+.navbar .active {
     color: #0056b3;
     border-bottom: 2px solid #0056b3;
 }
@@ -67,7 +69,6 @@ header {
     color: white;
 }
 
-
 .logo-banner {
     width: 80%; /* Increase the width to 80% of its container */
     height: auto; /* Maintain aspect ratio */
@@ -84,9 +85,36 @@ header {
     border-radius: 10px;
 }
 
+/* Styles spécifiques à la section L'association */
 .section {
     padding: 60px 20px;
-    text-align: center;
+    text-align: left; /* Alignement à gauche pour le texte */
+}
+
+h2 {
+    font-size: 2.5rem; /* Taille du titre de section */
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+h3 {
+    font-size: 2rem; /* Taille des sous-titres */
+    margin-top: 30px; /* Espacement au-dessus des sous-titres */
+    margin-bottom: 10px; /* Espacement sous les sous-titres */
+}
+
+h4 {
+    font-size: 1.5rem; /* Taille des sous-sous-titres */
+    margin-top: 20px; /* Espacement au-dessus des sous-sous-titres */
+}
+
+p {
+    margin-bottom: 20px; /* Espacement entre les paragraphes */
+}
+
+ul {
+    list-style-type: disc; /* Style des listes */
+    margin-left: 20px; /* Décalage à gauche des listes */
+    margin-bottom: 20px; /* Espacement sous les listes */
 }
 
 footer {
