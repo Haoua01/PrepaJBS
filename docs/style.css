@@ -128,25 +128,24 @@ footer {
 
 .content {
     display: flex;
-    align-items: center; /* Center the items vertically */
+    align-items: flex-start; /* Align items to the start for better text and image positioning */
     margin-bottom: 40px; /* Space between sections */
 }
 
 .text-content {
-    flex: 1; /* Allow the paragraph to take up remaining space */
+    flex: 1; /* Allow the text to take up the remaining space */
+    margin-right: 20px; /* Add spacing between the text and image */
 }
 
 .content img {
     max-width: 40%; /* Set a max width for the images */
     height: auto; /* Maintain aspect ratio */
-    margin: 20px; /* Add some margin around images */
-}
-
-.image-right {
-    order: 2; /* Ensure this image is on the right for "Permettre une orientation éclairée" */
 }
 
 .image-left {
-    order: 1; /* Ensure this image is on the left for "Cultiver l’excellence" */
+    order: 1; /* Ensure this image is on the left */
 }
 
+.image-right {
+    order: 2; /* Ensure this image is on the right */
+}
