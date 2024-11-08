@@ -212,6 +212,8 @@ footer {
     max-width: 600px; /* Set a maximum width for the image */
     height: auto; /* Maintain aspect ratio */
     margin-top: 10px; /* Space between heading and image */
+    display: block; /* Center the image */
+    margin-bottom: 20px; /* Space below the logo */
 }
 
 
