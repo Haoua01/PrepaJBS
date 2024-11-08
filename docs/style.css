@@ -212,20 +212,11 @@ footer {
     max-width: 600px; /* Set a maximum width for the image */
     height: auto; /* Maintain aspect ratio */
     margin-top: 10px; /* Space between heading and image */
-    display: block; /* Center the image */
-    margin-bottom: 20px; /* Space below the logo */
+    display: block; /* Ensure it behaves like a block element */
+    margin-left: auto; /* Center the image */
+    margin-right: auto; /* Center the image */
 }
 
-
-
-
-/* Image Container */
-img {
-    max-width: 40%;             /* Ensure image takes up no more than 40% of the container width */
-    height: auto;               /* Maintain the aspect ratio of the image */
-    margin-left: 20px;
-    display: block; /* Space between image and text */
-}
 
 .content {
     display: flex; /* Use flexbox to arrange items side by side */
