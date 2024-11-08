@@ -132,6 +132,7 @@ h2 {
     font-size: 2.5rem; /* Taille du titre de section */
     margin-bottom: 20px; /* Espacement sous le titre */
     color: #0056b3; /* Blue color for headings */
+    text-align: center;
 }
 
 h3 {
@@ -166,13 +167,7 @@ footer {
     padding: 20px;
 }
 
-/* Set up the flexbox container */
-.content {
-    display: flex;              /* Place text and image side by side */
-    justify-content: space-between;
-    align-items: center;        /* Vertically center the content */
-    margin-bottom: 40px;        /* Add space between content blocks */
-}
+
 
 /* Image Container */
 img {
@@ -182,15 +177,26 @@ img {
     display: block; /* Space between image and text */
 }
 
-/* For "Cultiver l'excellence" (image on left) */
+.content {
+    display: flex; /* Use flexbox to arrange items side by side */
+    align-items: flex-start; /* Align items to the start vertically */
+    margin-bottom: 40px; /* Space between content blocks */
+}
+
 .image-left {
-    order: -1;
-    display: block; /* Center the image */
+    max-width: 40%; /* Ensure the image takes up a maximum of 40% of the width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the image and text */
+}
+
+.text-content {
+    max-width: 60%; /* Allow the text content to take up the remaining width */
 }
 
 .image-right {
-    order: -1; 
-    display: block; /* Center the image */
+    max-width: 40%; /* Ensure the image takes up a maximum of 40% of the width */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px; /* Space between the text and image */
 }
 
 /* Responsive Design: Stack text and image on smaller screens */
