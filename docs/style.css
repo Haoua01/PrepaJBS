@@ -55,7 +55,7 @@ header {
 
 .navbar a:hover,
 .navbar .active {
-    color: #f04f23;
+    color: white;
     background-color: #0056b3; /* Change background on hover */
     border-radius: 5px; /* Rounded corners */
 }
@@ -110,6 +110,7 @@ header {
 }
 
 .slogan {
+    font-family: 'Garamond', serif;
     font-size: 2rem;
     font-weight: 700;
     margin-top: 20px;
@@ -129,6 +130,7 @@ header {
 }
 
 h2 {
+    font-family: 'Garamond', serif;
     font-size: 2.5rem; /* Taille du titre de section */
     margin-bottom: 20px; /* Espacement sous le titre */
     color: #0056b3; /* Blue color for headings */
@@ -136,6 +138,7 @@ h2 {
 }
 
 h3 {
+    font-family: 'Garamond', serif;
     font-size: 2rem; /* Taille des sous-titres */
     margin-top: 30px; /* Espacement au-dessus des sous-titres */
     margin-bottom: 10px; /* Espacement sous les sous-titres */
@@ -144,6 +147,7 @@ h3 {
 
 
 h4 {
+    font-family: 'Garamond', serif;
     font-size: 1.5rem; /* Taille des sous-sous-titres */
     margin-top: 20px; /* Espacement au-dessus des sous-sous-titres */
     text-align: center;
@@ -151,6 +155,7 @@ h4 {
 }
 
 #excellence h4 {
+    font-family: 'Garamond', serif;
     font-size: 32px; /* Taille des sous-sous-titres */
     margin-top: 20px; /* Espacement au-dessus des sous-sous-titres */
     text-align: center;
@@ -158,6 +163,7 @@ h4 {
 }
 
 #orientation h4 {
+    font-family: 'Garamond', serif;
     font-size: 32px; /* Taille des sous-sous-titres */
     margin-top: 20px; /* Espacement au-dessus des sous-sous-titres */
     text-align: center; /* Center alignment */
@@ -166,15 +172,18 @@ h4 {
 
 
 p {
+    font-family: 'Helvetica', sans-serif;
     margin-bottom: 20px; /* Espacement entre les paragraphes */
     text-align: justify;
 }
 
 #excellence p {
+    font-family: 'Helvetica', sans-serif;
     text-align: justify; /* Justify alignment for paragraphs */
 }
 
 #orientation p {
+    font-family: 'Helvetica', sans-serif;
     text-align: justify; /* Justify alignment for paragraphs */
 }
 
