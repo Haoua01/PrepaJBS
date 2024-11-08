@@ -138,6 +138,7 @@ h2 {
 }
 
 h3 {
+    text-align: center;
     font-family: 'Garamond', serif;
     font-size: 2rem; /* Taille des sous-titres */
     margin-top: 30px; /* Espacement au-dessus des sous-titres */
