@@ -50,6 +50,23 @@ header {
     border-radius: 5px; /* Rounded corners */
 }
 
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espace entre les icônes */
+}
+
+.social-icons a {
+    color: #0056b3; /* Couleur par défaut des icônes */
+    font-size: 1.5rem; /* Taille des icônes */
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #f04f23; /* Couleur au survol */
+}
+
+
 .cta {
     background-color: #f04f23; /* Red */
     color: white;
