@@ -201,6 +201,16 @@ footer {
     padding: 20px;
 }
 
+.image-container {
+    width: 100%; /* Set to 100% to make the image responsive */
+    max-width: 600px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0; /* Add space above and below the image */
+    display: block; /* Center the image if necessary */
+    margin-left: auto;
+    margin-right: auto; /* Center the image */
+}
+
 
 
 /* Image Container */
