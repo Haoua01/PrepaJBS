@@ -150,15 +150,15 @@ h4 {
     color: black
 }
 
-#excellence h1 {
-    font-size: 1.5rem; /* Taille des sous-sous-titres */
+#excellence h4 {
+    font-size: 32px; /* Taille des sous-sous-titres */
     margin-top: 20px; /* Espacement au-dessus des sous-sous-titres */
     text-align: center;
     color: #ffcc00; /* Yellow color for h4 */
 }
 
-#orientation h1 {
-    font-size: 1.5rem; /* Taille des sous-sous-titres */
+#orientation h4 {
+    font-size: 32px; /* Taille des sous-sous-titres */
     margin-top: 20px; /* Espacement au-dessus des sous-sous-titres */
     text-align: center; /* Center alignment */
     color: #CF9FFF; /* Custom color */
