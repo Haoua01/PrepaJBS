@@ -9,6 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #333;
     line-height: 1.6;
+    background-color: #f0f4f8; /* Light background for contrast */
 }
 
 header {
@@ -36,25 +37,29 @@ header {
 
 .navbar a {
     text-decoration: none;
-    color: #333;
+    color: #0056b3; /* Darker shade of blue */
     font-weight: 500;
+    padding: 10px 15px; /* Padding for better touch targets */
+    transition: color 0.3s, background-color 0.3s;
 }
 
 .navbar a:hover,
 .navbar .active {
-    color: #0056b3;
-    border-bottom: 2px solid #0056b3;
+    color: white;
+    background-color: #0056b3; /* Change background on hover */
+    border-radius: 5px; /* Rounded corners */
 }
 
 .cta {
-    background-color: #f04f23;
+    background-color: #f04f23; /* Red */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .cta:hover {
-    background-color: #d4411a;
+    background-color: #d4411a; /* Darker shade of red */
 }
 
 .banner {
@@ -74,6 +79,7 @@ header {
     height: auto; /* Maintain aspect ratio */
     max-width: 800px; /* Set a maximum width for the logo */
     display: block; /* Center the image */
+    margin-bottom: 20px; /* Space below the logo */
 }
 
 .slogan {
@@ -89,23 +95,30 @@ header {
 .section {
     padding: 60px 20px;
     text-align: left; /* Alignement à gauche pour le texte */
+    background-color: #fff; /* White background for sections */
+    border-radius: 10px; /* Rounded corners for sections */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin-bottom: 40px; /* Space between sections */
 }
 
 h2 {
     font-size: 2.5rem; /* Taille du titre de section */
     margin-bottom: 20px; /* Espacement sous le titre */
+    color: #0056b3; /* Blue color for headings */
 }
 
 h3 {
     font-size: 2rem; /* Taille des sous-titres */
     margin-top: 30px; /* Espacement au-dessus des sous-titres */
     margin-bottom: 10px; /* Espacement sous les sous-titres */
+    color: #f04f23; /* Red color for subheadings */
 }
 
 h4 {
     font-size: 1.5rem; /* Taille des sous-sous-titres */
     margin-top: 20px; /* Espacement au-dessus des sous-sous-titres */
     text-align: center;
+    color: #ffcc00; /* Yellow color for h4 */
 }
 
 p {
@@ -118,7 +131,7 @@ ul {
     margin-bottom: 20px; /* Espacement sous les listes */
 }
 
-
+/* Footer */
 footer {
     background-color: #333;
     color: white;
@@ -139,7 +152,7 @@ img {
     max-width: 40%;             /* Ensure image takes up no more than 40% of the container width */
     height: auto;               /* Maintain the aspect ratio of the image */
     margin-left: 20px;
-    display: block;/* Space between image and text */
+    display: block; /* Space between image and text */
 }
 
 /* For "Cultiver l'excellence" (image on left) */
@@ -165,4 +178,3 @@ img {
         margin: 20px 0;         /* Space between stacked text and image */
     }
 }
-
