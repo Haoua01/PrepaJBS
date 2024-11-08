@@ -53,7 +53,7 @@ header {
 .social-icons {
     display: flex;
     align-items: center;
-    gap: 15px; /* Espace entre les icônes */
+    gap: 7px; /* Espace entre les icônes */
 }
 
 .social-icons a {
