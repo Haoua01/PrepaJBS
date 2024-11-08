@@ -55,7 +55,7 @@ header {
 
 .navbar a:hover,
 .navbar .active {
-    color: white;
+    color: #f04f23;
     background-color: #0056b3; /* Change background on hover */
     border-radius: 5px; /* Rounded corners */
 }
