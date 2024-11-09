@@ -271,3 +271,36 @@ footer {
     }
 
 }
+
+.box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+}
+
+.box:nth-child(odd) {
+    background-color: #ecf0f1;
+}
+
+.box.association {
+    border-left: 5px solid #3498db;
+}
+
+.box.objectif {
+    border-left: 5px solid #e67e22;
+}
+
+.box.partenaires {
+    border-left: 5px solid #2ecc71;
+}
+
+.box.programme {
+    border-left: 5px solid #9b59b6;
+}
+
+.box.etablissements {
+    border-left: 5px solid #f39c12;
+}
