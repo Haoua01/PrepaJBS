@@ -233,8 +233,8 @@ footer {
 .content {
     display: flex; /* Use flexbox to arrange items side by side */
     align-items: flex-start; /* Align items to the start vertically */
-    margin-bottom: 40px; /* Space between content blocks */
-    margin-top: 40px; /* Space between content blocks */
+    margin-bottom: 20px; /* Space between content blocks */
+    margin-top: 20px; /* Space between content blocks */
 }
 
 
@@ -337,6 +337,7 @@ footer {
 .box.etablissements {
     border-left: 5px solid #f39c12;
     border-right: 5px solid #f39c12;
+    margin-bottom: 40px;
 }
 
 
