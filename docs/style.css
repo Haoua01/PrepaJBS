@@ -242,8 +242,8 @@ footer {
     width: 100%; /* Make the image responsive */
     max-width: 20%; /* Set a maximum width for the image */
     height: auto; /* Maintain aspect ratio */
-    margin-top: 20px; /* Space between heading and image */
-    margin-bottom: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
     display: block; /* Ensure it behaves like a block element */
     margin-left: auto; /* Center the image */
     margin-right: auto; /* Center the image */
@@ -258,8 +258,8 @@ footer {
     width: 100%; /* Make the image responsive */
     max-width: 20%; /* Set a maximum width for the image */
     height: auto; /* Maintain aspect ratio */
-    margin-top: 20px; /* Space between heading and image */
-    margin-bottom: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
     display: block; /* Ensure it behaves like a block element */
     margin-left: auto; /* Center the image */
     margin-right: auto; /* Center the image */
