@@ -316,3 +316,24 @@ footer {
 .box.etablissements {
     border-left: 5px solid #f39c12;
 }
+
+#association h3 {
+    color: #3498db;
+}
+
+#objectif h3 {
+    color: #e67e22;
+}
+
+#partenaires h3 {
+    color: #2ecc71;
+}
+
+#programme h3 {
+    color: #9b59b6;
+}
+
+#etablissements h3 {
+    color: #f39c12;
+}
+
