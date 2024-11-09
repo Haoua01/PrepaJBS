@@ -225,9 +225,13 @@ footer {
 }
 
 .image-left {
-    max-width: 30%; /* Ensure the image takes up a maximum of 40% of the width */
+    width: 100%; /* Make the image responsive */
+    max-width: 200px; /* Set a maximum width for the image */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 40px; /* Space between the image and text */
+    margin-top: 10px; /* Space between heading and image */
+    display: block; /* Ensure it behaves like a block element */
+    margin-left: auto; /* Center the image */
+    margin-right: auto; /* Center the image */
 }
 
 .text-content {
@@ -235,9 +239,13 @@ footer {
 }
 
 .image-right {
-    max-width: 30%; /* Ensure the image takes up a maximum of 40% of the width */
+    width: 100%; /* Make the image responsive */
+    max-width: 200px; /* Set a maximum width for the image */
     height: auto; /* Maintain aspect ratio */
-    margin-left: 40px; /* Space between the text and image */
+    margin-top: 10px; /* Space between heading and image */
+    display: block; /* Ensure it behaves like a block element */
+    margin-left: auto; /* Center the image */
+    margin-right: auto; /* Center the image */
 }
 
 /* Responsive Design: Stack text and image on smaller screens */
