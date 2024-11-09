@@ -300,11 +300,11 @@ footer {
     background-color: #ecf0f1;
 }
 
-.box.association {
+.box.asso {
     border-left: 5px solid #3498db;
 }
 
-#association i {
+#asso i {
     position: absolute;
     left: 20px;
     top: 20px;
@@ -363,7 +363,7 @@ footer {
 }
 
 
-#association h3 {
+#asso h3 {
     color: #3498db;
     margin-top: 20px;
 }
