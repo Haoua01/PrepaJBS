@@ -158,7 +158,10 @@ h4 {
 #excellence h4 {
     font-family: 'Garamond', serif;
     font-size: 32px; /* Taille des sous-sous-titres */
-    margin-top: 20px; /* Espacement au-dessus des sous-sous-titres */
+    margin-top: 20px; /* Espacement au-dessus des sous-titres */
+    margin-bottom: 20px; /* Espacement sous les sous-titres */
+    margin-left: 20px; /* Espacement à gauche des sous-sous-titres */
+    margin-right: 20px; /* Espacement à droite des sous-sous-titres */
     text-align: center;
     color: #ffcc00; /* Yellow color for h4 */
 }
@@ -166,7 +169,10 @@ h4 {
 #orientation h4 {
     font-family: 'Garamond', serif;
     font-size: 32px; /* Taille des sous-sous-titres */
-    margin-top: 20px; /* Espacement au-dessus des sous-sous-titres */
+    margin-top: 20px; /* Espacement au-dessus des sous-titres */
+    margin-bottom: 20px; /* Espacement sous les sous-titres */
+    margin-left: 20px; /* Espacement à gauche des sous-sous-titres */
+    margin-right: 20px; /* Espacement à droite des sous-sous-titres */
     text-align: center; /* Center alignment */
     color: #CF9FFF; /* Custom color */
 }
@@ -215,6 +221,7 @@ footer {
     display: block; /* Ensure it behaves like a block element */
     margin-left: auto; /* Center the image */
     margin-right: auto; /* Center the image */
+
 }
 
 
@@ -228,10 +235,11 @@ footer {
     width: 100%; /* Make the image responsive */
     max-width: 200px; /* Set a maximum width for the image */
     height: auto; /* Maintain aspect ratio */
-    margin-top: 10px; /* Space between heading and image */
+    margin-top: 20px; /* Space between heading and image */
+    margin-bottom: 20px;
     display: block; /* Ensure it behaves like a block element */
-    margin-left: auto; /* Center the image */
-    margin-right: auto; /* Center the image */
+    margin-left: 20px; /* Center the image */
+    margin-right: 20px; /* Center the image */
 }
 
 .text-content {
@@ -242,10 +250,11 @@ footer {
     width: 100%; /* Make the image responsive */
     max-width: 200px; /* Set a maximum width for the image */
     height: auto; /* Maintain aspect ratio */
-    margin-top: 10px; /* Space between heading and image */
+    margin-top: 20px; /* Space between heading and image */
+    margin-bottom: 20px;
     display: block; /* Ensure it behaves like a block element */
-    margin-left: auto; /* Center the image */
-    margin-right: auto; /* Center the image */
+    margin-left: 20px; /* Center the image */
+    margin-right: 20px; /* Center the image */
 }
 
 /* Responsive Design: Stack text and image on smaller screens */
