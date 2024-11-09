@@ -240,7 +240,7 @@ footer {
 
 .image-left {
     width: 100%; /* Make the image responsive */
-    max-width: 200px; /* Set a maximum width for the image */
+    max-width: 20%; /* Set a maximum width for the image */
     height: auto; /* Maintain aspect ratio */
     margin-top: 20px; /* Space between heading and image */
     margin-bottom: 20px;
@@ -250,12 +250,12 @@ footer {
 }
 
 .text-content {
-    max-width: 100%; /* Allow the text content to take up the remaining width */
+    max-width: 80%; /* Allow the text content to take up the remaining width */
 }
 
 .image-right {
     width: 100%; /* Make the image responsive */
-    max-width: 200px; /* Set a maximum width for the image */
+    max-width: 20%; /* Set a maximum width for the image */
     height: auto; /* Maintain aspect ratio */
     margin-top: 20px; /* Space between heading and image */
     margin-bottom: 20px;
@@ -278,6 +278,7 @@ footer {
 
 }
 
+/* Base Box Styling */
 .box {
     background-color: #fff;
     padding: 20px;
@@ -289,73 +290,101 @@ footer {
     transition: all 0.3s ease;
 }
 
+/* Adding Flexbox for layout control (if you plan to use left and right alignment) */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Styling for left-aligned boxes */
 .box.left {
-    align-self: flex-start;
     background-color: #ecf0f1;
+    flex: 1 1 48%; /* Flex with equal width */
+    margin-right: 4%; /* Space between boxes */
 }
 
+/* Styling for right-aligned boxes */
 .box.right {
-    align-self: flex-end;
     background-color: #fff;
+    flex: 1 1 48%; /* Flex with equal width */
+    margin-left: 4%; /* Space between boxes */
 }
 
+/* Alternate background for odd-numbered boxes */
 .box:nth-child(odd) {
     background-color: #ecf0f1;
 }
 
+/* Specific Border Colors */
 .box.asso {
     border-left: 5px solid #3498db;
 }
-
-
 
 .box.objectif {
     border-left: 5px solid #f64eb3;
 }
 
-
-
 .box.partenaires {
     border-left: 5px solid #2ecc71;
 }
-
-
-
 
 .box.programme {
     border-left: 5px solid #9b59b6;
 }
 
-
-
 .box.etablissements {
     border-left: 5px solid #f39c12;
 }
 
-
-
+/* Specific Colors for <h3> Titles */
 #asso h3 {
     color: #3498db;
     margin-top: 20px;
+    font-size: 1.6rem;
 }
 
 #objectifs h3 {
     color: #f64eb3;
-    margin-top: 20px; /* Espacement au-dessus des sous-titres */
+    margin-top: 20px;
+    font-size: 1.6rem;
 }
 
 #partenaires h3 {
     color: #2ecc71;
     margin-top: 20px;
+    font-size: 1.6rem;
 }
 
 #programme h3 {
     color: #9b59b6;
     margin-top: 20px;
+    font-size: 1.6rem;
 }
 
 #etablissements h3 {
     color: #f39c12;
     margin-top: 20px;
+    font-size: 1.6rem;
 }
 
+/* Optional: Add hover effects to make it interactive */
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 100%; /* Stacking the boxes on smaller screens */
+        margin-bottom: 20px;
+    }
+
+    .box i {
+        font-size: 2rem; /* Adjust icon size on small screens */
+    }
+
+    h3 {
+        font-size: 1.4rem; /* Adjust heading font size on small screens */
+    }
+}
