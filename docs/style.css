@@ -233,13 +233,7 @@ footer {
     margin-bottom: 40px; /* Space between content blocks */
 }
 
-.content i {
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    font-size: 2rem;
-    color: #2980b9;
-}
+
 
 .image-left {
     width: 100%; /* Make the image responsive */
@@ -310,21 +304,64 @@ footer {
     border-left: 5px solid #3498db;
 }
 
+.box.association i {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 2rem;
+    color: #3498db;
+}
+
 .box.objectif {
     border-left: 5px solid #ffc2d8;
+}
+
+.box.objectif i {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 2rem;
+    color: #ffc2d8;
 }
 
 .box.partenaires {
     border-left: 5px solid #2ecc71;
 }
 
+.box.partenaires i {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 2rem;
+    color: #2ecc71;
+}
+
+
 .box.programme {
     border-left: 5px solid #9b59b6;
+}
+
+.box.programme i {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 2rem;
+    color: 9b59b6;
 }
 
 .box.etablissements {
     border-left: 5px solid #f39c12;
 }
+
+
+.box.etablissements i {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 2rem;
+    color: #f39c12;
+}
+
 
 #association h3 {
     color: #3498db;
