@@ -269,14 +269,4 @@ footer {
         margin: 20px 0;         /* Space between stacked text and image */
     }
 
-    .image-left,
-    .image-right {
-        max-width: 100%;        /* Image takes full width in smaller screens */
-        margin: 20px 0;         /* Space between stacked text and image */
-    }
-
-    .image-container {
-        margin-top: 20px;       /* Space between heading and image */
-    }
-
 }
