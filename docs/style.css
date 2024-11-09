@@ -141,7 +141,7 @@ h3 {
     text-align: center;
     font-family: 'Garamond', serif;
     font-size: 2rem; /* Taille des sous-titres */
-    margin-top: 30px; /* Espacement au-dessus des sous-titres */
+    margin-top: 100px; /* Espacement au-dessus des sous-titres */
     margin-bottom: 10px; /* Espacement sous les sous-titres */
     color: #f04f23; /* Red color for subheadings */
 }
