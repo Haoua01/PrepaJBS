@@ -359,9 +359,3 @@ footer {
     margin-top: 20px;
 }
 
-i {
-    position: absolute;  /* Positionne l'icône de manière absolue par rapport à son parent */
-    left: 20px;          /* Décale l'icône de 20px depuis la gauche de son parent */
-    top: 20px;           /* Décale l'icône de 20px depuis le haut de son parent */
-    font-size: 2rem;     /* Définit la taille de l'icône à 2rem (relatif à la taille de la police de base) */     /* Définit la couleur de l'icône en vert (#2ecc71) */
-}
