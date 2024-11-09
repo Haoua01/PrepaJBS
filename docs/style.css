@@ -304,63 +304,31 @@ footer {
     border-left: 5px solid #3498db;
 }
 
-#asso i {
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    font-size: 2rem;
-    color: #3498db;
-}
+
 
 .box.objectif {
     border-left: 5px solid #f64eb3;
 }
 
-#objectif i {
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    font-size: 2rem;
-    color: #f64eb3;
-}
+
 
 .box.partenaires {
     border-left: 5px solid #2ecc71;
 }
 
-#partenaires i {
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    font-size: 2rem;
-    color: #2ecc71;
-}
+
 
 
 .box.programme {
     border-left: 5px solid #9b59b6;
 }
 
-#programme i {
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    font-size: 2rem;
-    color: #9b59b6;
-}
+
 
 .box.etablissements {
     border-left: 5px solid #f39c12;
 }
 
-
-#etablissements i {
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    font-size: 2rem;
-    color: #f39c12;
-}
 
 
 #asso h3 {
