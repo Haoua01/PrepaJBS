@@ -148,6 +148,19 @@ h3 {
     color: #f04f23; /* Red color for subheadings */
 }
 
+.banner-container {
+    background-color: #f04f23; /* Background color of the banner */
+    padding: 20px 0;           /* Add vertical padding around the text */
+    text-align: center;        /* Center the text inside the container */
+}
+
+.banner-container h3 {
+    color: white;              /* Text color */
+    margin: 0;                 /* Remove default margin from h3 */
+    font-size: 1.8rem;         /* Adjust font size if necessary */
+}
+
+
 
 h4 {
     font-family: 'Garamond', serif;
