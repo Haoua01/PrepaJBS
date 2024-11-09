@@ -304,32 +304,32 @@ footer {
 }
 
 .box.asso {
-    border-left: 5px solid #3498db;
+    border-radius: 5px 5px 5px 5px solid #3498db;
 }
 
 
 
 .box.objectif {
-    border-left: 5px solid #f64eb3;
+    border-radius: 5px 5px 5px 5px solid #f64eb3; 
 }
 
 
 
 .box.partenaires {
-    border-left: 5px solid #2ecc71;
+    border-radius: 5px 5px 5px 5px solid #2ecc71;
 }
 
 
 
 
 .box.programme {
-    border-left: 5px solid #9b59b6;
+    border-radius: 5px 5px 5px 5px solid #9b59b6;
 }
 
 
 
 .box.etablissements {
-    border-left: 5px solid #f39c12;
+    border-radius: 5px 5px 5px 5px solid #f39c12;
 }
 
 
