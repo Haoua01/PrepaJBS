@@ -234,6 +234,7 @@ footer {
     display: flex; /* Use flexbox to arrange items side by side */
     align-items: flex-start; /* Align items to the start vertically */
     margin-bottom: 40px; /* Space between content blocks */
+    margin-top: 40px; /* Space between content blocks */
 }
 
 
