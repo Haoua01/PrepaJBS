@@ -304,7 +304,7 @@ footer {
     border-left: 5px solid #3498db;
 }
 
-.box.association i {
+#association i {
     position: absolute;
     left: 20px;
     top: 20px;
@@ -316,7 +316,7 @@ footer {
     border-left: 5px solid #f64eb3;
 }
 
-.box.objectif i {
+#objectif i {
     position: absolute;
     left: 20px;
     top: 20px;
@@ -328,7 +328,7 @@ footer {
     border-left: 5px solid #2ecc71;
 }
 
-.box.partenaires i {
+#partenaires i {
     position: absolute;
     left: 20px;
     top: 20px;
@@ -341,12 +341,12 @@ footer {
     border-left: 5px solid #9b59b6;
 }
 
-.box.programme i {
+#programme i {
     position: absolute;
     left: 20px;
     top: 20px;
     font-size: 2rem;
-    color: 9b59b6;
+    color: #9b59b6;
 }
 
 .box.etablissements {
@@ -354,7 +354,7 @@ footer {
 }
 
 
-.box.etablissements i {
+#etablissements i {
     position: absolute;
     left: 20px;
     top: 20px;
