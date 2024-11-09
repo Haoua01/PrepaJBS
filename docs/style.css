@@ -257,3 +257,26 @@ footer {
     margin-right: auto; /* Center the image */
 }
 
+/* Responsive Design: Stack text and image on smaller screens */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column; /* Stack the image and text on top of each other */
+        text-align: center;     /* Center align the text */
+    }
+
+    img {
+        max-width: 100%;        /* Image takes full width in smaller screens */
+        margin: 20px 0;         /* Space between stacked text and image */
+    }
+
+    .image-left,
+    .image-right {
+        max-width: 100%;        /* Image takes full width in smaller screens */
+        margin: 20px 0;         /* Space between stacked text and image */
+    }
+
+    .image-container {
+        margin-top: 20px;       /* Space between heading and image */
+    }
+
+}
