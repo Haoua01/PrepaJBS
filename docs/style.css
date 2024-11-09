@@ -148,17 +148,7 @@ h3 {
     color: #f04f23; /* Red color for subheadings */
 }
 
-.banner-container {
-    background-color: #f04f23; /* Background color of the banner */
-    padding: 20px 0;           /* Add vertical padding around the text */
-    text-align: center;        /* Center the text inside the container */
-}
 
-.banner-container h3 {
-    color: white;              /* Text color */
-    margin: 0;                 /* Remove default margin from h3 */
-    font-size: 1.8rem;         /* Adjust font size if necessary */
-}
 
 
 
@@ -369,3 +359,9 @@ footer {
     margin-top: 20px;
 }
 
+i {
+    position: absolute;  /* Positionne l'icône de manière absolue par rapport à son parent */
+    left: 20px;          /* Décale l'icône de 20px depuis la gauche de son parent */
+    top: 20px;           /* Décale l'icône de 20px depuis le haut de son parent */
+    font-size: 2rem;     /* Définit la taille de l'icône à 2rem (relatif à la taille de la police de base) */     /* Définit la couleur de l'icône en vert (#2ecc71) */
+}
