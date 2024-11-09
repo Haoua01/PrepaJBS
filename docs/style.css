@@ -277,8 +277,20 @@ footer {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 280px;
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
+    transition: all 0.3s ease;
+}
+
+.box.left {
+    align-self: flex-start;
+    background-color: #ecf0f1;
+}
+
+.box.right {
+    align-self: flex-end;
+    background-color: #fff;
 }
 
 .box:nth-child(odd) {
