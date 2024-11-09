@@ -238,8 +238,8 @@ footer {
     margin-top: 20px; /* Space between heading and image */
     margin-bottom: 20px;
     display: block; /* Ensure it behaves like a block element */
-    margin-left: 20px; /* Center the image */
-    margin-right: 20px; /* Center the image */
+    margin-left: auto; /* Center the image */
+    margin-right: auto; /* Center the image */
 }
 
 .text-content {
@@ -253,8 +253,8 @@ footer {
     margin-top: 20px; /* Space between heading and image */
     margin-bottom: 20px;
     display: block; /* Ensure it behaves like a block element */
-    margin-left: 20px; /* Center the image */
-    margin-right: 20px; /* Center the image */
+    margin-left: auto; /* Center the image */
+    margin-right: auto; /* Center the image */
 }
 
 /* Responsive Design: Stack text and image on smaller screens */
