@@ -232,6 +232,14 @@ footer {
     margin-bottom: 40px; /* Space between content blocks */
 }
 
+.content i {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 2rem;
+    color: #2980b9;
+}
+
 .image-left {
     width: 100%; /* Make the image responsive */
     max-width: 200px; /* Set a maximum width for the image */
