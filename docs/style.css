@@ -304,32 +304,37 @@ footer {
 }
 
 .box.asso {
-    border-radius: 5px 5px 5px 5px solid #3498db;
+    border-left: 5px solid #3498db;
+    border-right: 5px solid #3498db;
 }
 
 
 
 .box.objectif {
-    border-radius: 5px 5px 5px 5px solid #f64eb3; 
+    border-left: 5px solid #f64eb3;
+    border-right: 5px solid #f64eb3;
 }
 
 
 
 .box.partenaires {
-    border-radius: 5px 5px 5px 5px solid #2ecc71;
+    border-left: 5px solid #2ecc71;
+    border-right: 5px solid #2ecc71;
 }
 
 
 
 
 .box.programme {
-    border-radius: 5px 5px 5px 5px solid #9b59b6;
+    border-left: 5px solid #9b59b6;
+    border-right: 5px solid #9b59b6;
 }
 
 
 
 .box.etablissements {
-    border-radius: 5px 5px 5px 5px solid #f39c12;
+    border-left: 5px solid #f39c12;
+    border-right: 5px solid #f39c12;
 }
 
 
