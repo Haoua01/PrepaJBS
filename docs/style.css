@@ -504,3 +504,25 @@ a { color: var(--blue); text-underline-offset: 3px; }
 
 @media (max-width: 900px) { .contact-box { grid-template-columns: 1fr; } }
 @media (max-width: 560px) { .field-row { grid-template-columns: 1fr; } }
+.form-note.is-success { color: #1e7a46; font-weight: 700; }
+.form-note.is-error { color: #b42318; font-weight: 700; }
+.form-actions .btn:disabled { opacity: .6; cursor: wait; }
+
+/* Nous soutenir : moyens de contact */
+.contact-channels { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; align-content: start; }
+.contact-channels a {
+  display: flex; align-items: center; gap: 1rem;
+  padding: 1.1rem 1.3rem; border-radius: var(--r-sm);
+  background: var(--bg); color: var(--ink); text-decoration: none;
+  border: 1.5px solid transparent;
+  transition: border-color .2s, background-color .2s;
+}
+.contact-channels a:hover { border-color: var(--ink); background: var(--white); }
+.contact-channels svg {
+  flex: none; width: 44px; height: 44px; padding: 10px;
+  border-radius: 50%; background: var(--sky);
+  fill: none; stroke: var(--ink); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round;
+}
+.contact-channels span { display: grid; line-height: 1.35; color: var(--muted); font-size: 0.93rem; overflow-wrap: anywhere; }
+.contact-channels strong { color: var(--ink); font-size: 1rem; }
+@media (max-width: 560px) { .contact-channels { grid-template-columns: 1fr; } }

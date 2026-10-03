@@ -16,8 +16,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script src="navigation.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=5">
+  <script src="navigation.js?v=4" defer></script>
 </head>
 <body>
 
@@ -62,17 +62,17 @@
         <article class="tile tile-sky support">
           <h2>Devenir bénévole</h2>
           <p>Étudiant ou jeune professionnel ? Présentez votre filière aux lycéens ou aidez-nous à préparer les élèves aux concours.</p>
-          <a class="btn btn-ink" href="#formulaire" data-support="benevole">Proposer mon aide</a>
+          <a class="btn btn-ink" href="#formulaire" data-support="Devenir bénévole">Proposer mon aide</a>
         </article>
         <article class="tile tile-white support">
           <h2>Faire un don</h2>
           <p>Vos dons financent les ressources pédagogiques et l'organisation des sessions de présentation et de préparation.</p>
-          <a class="btn btn-ink" href="#formulaire" data-support="don">Faire un don</a>
+          <a class="btn btn-ink" href="#formulaire" data-support="Faire un don">Faire un don</a>
         </article>
         <article class="tile tile-white support">
           <h2>Devenir partenaire</h2>
           <p>Entreprises, écoles et institutions : construisons ensemble des passerelles vers l'enseignement supérieur.</p>
-          <a class="btn btn-ink" href="#formulaire" data-support="partenariat">Devenir partenaire</a>
+          <a class="btn btn-ink" href="#formulaire" data-support="Devenir partenaire">Devenir partenaire</a>
         </article>
       </div>
     </section>
@@ -80,25 +80,57 @@
       <div class="tile tile-white contact-box">
         <div class="contact-intro">
           <h2>Écrivez-nous</h2>
-          <p>Remplissez ce formulaire.</p>
-          <p class="contact-direct">Vous pouvez aussi nous écrire directement à <a href="mailto:contact@prepajbs.com">contact@prepajbs.com</a>.</p>
+          <p>Une question, une envie de nous aider ? Choisissez le moyen qui vous convient le mieux, nous vous répondrons rapidement.</p>
         </div>
 
-        <!-- L'adresse de destination se modifie dans data-email ci-dessous -->
-        <form class="contact-form" data-email="contact@prepajbs.com">
+        <ul class="contact-channels">
+          <li>
+            <a href="mailto:contact@prepajbs.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7l8.5 6 8.5-6"/></svg>
+              <span><strong>E-mail</strong>contact@prepajbs.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://whatsapp.com/channel/0029VavjlKaCXC3Tal5jck3C" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.8 7L4 19.5l1.1-4A8 8 0 1 1 20 11.5z"/><path d="M9 9.5c.3 1.8 1.7 3.6 3.6 4.4l1.1-1 1.8.8-.4 1.4c-3 .2-6.4-3-6.6-6l1.4-.5.8 1.8z"/></svg>
+              <span><strong>WhatsApp</strong>Notre chaîne</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/pr%C3%A9pa-jbs" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7"/><path d="M3 12.5h18"/></svg>
+              <span><strong>LinkedIn</strong>Prépa JBS</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://m.me/61568700830387" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v8a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 3.5V17A2.5 2.5 0 0 1 4 14.5z"/><path d="M8 9.5h8M8 12.5h5"/></svg>
+              <span><strong>Messenger</strong>Prépa JBS</span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- FORMULAIRE DÉSACTIVÉ POUR L'INSTANT (Web3Forms).
+             Pour le réactiver : retirez cette ligne de commentaire et la ligne « FIN DU FORMULAIRE »,
+             puis remplacez VOTRE_CLE_WEB3FORMS par votre clé.
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="VOTRE_CLE_WEB3FORMS">
+          <input type="hidden" name="subject" value="Prépa JBS – Demande de contact">
+          <input type="hidden" name="from_name" value="Site web Prépa JBS">
+          <input type="checkbox" name="botcheck" class="visually-hidden" tabindex="-1" autocomplete="off">
           <div class="field">
             <label for="type">Type de soutien</label>
-            <select id="type" name="type" required>
-              <option value="benevole">Devenir bénévole</option>
-              <option value="don">Faire un don</option>
-              <option value="partenariat">Devenir partenaire</option>
-              <option value="autre">Autre demande</option>
+            <select id="type" name="type_de_soutien" required>
+              <option>Devenir bénévole</option>
+              <option>Faire un don</option>
+              <option>Devenir partenaire</option>
+              <option>Autre demande</option>
             </select>
           </div>
           <div class="field-row">
             <div class="field">
               <label for="nom">Nom et prénom</label>
-              <input id="nom" name="nom" type="text" autocomplete="name" required>
+              <input id="nom" name="name" type="text" autocomplete="name" required>
             </div>
             <div class="field">
               <label for="organisation">Organisation <span class="optional">(facultatif)</span></label>
@@ -120,10 +152,11 @@
             <textarea id="message" name="message" rows="6" required placeholder="Présentez-vous en quelques lignes et dites-nous comment vous souhaitez nous aider."></textarea>
           </div>
           <div class="form-actions">
-            <button class="btn btn-ink" type="submit">Préparer l'e-mail</button>
+            <button class="btn btn-ink" type="submit">Envoyer le message</button>
             <p class="form-note" role="status" aria-live="polite"></p>
           </div>
         </form>
+        FIN DU FORMULAIRE -->
       </div>
     </section>
   </main>
