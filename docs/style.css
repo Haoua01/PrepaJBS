@@ -526,3 +526,5 @@ a { color: var(--blue); text-underline-offset: 3px; }
 .contact-channels span { display: grid; line-height: 1.35; color: var(--muted); font-size: 0.93rem; overflow-wrap: anywhere; }
 .contact-channels strong { color: var(--ink); font-size: 1rem; }
 @media (max-width: 560px) { .contact-channels { grid-template-columns: 1fr; } }
+/* Logos officiels (fichiers placés dans img/reseaux/) */
+.contact-channels img { flex: none; width: 44px; height: 44px; object-fit: contain; }
