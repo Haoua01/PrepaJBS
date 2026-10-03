@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nous soutenir – Prépa JBS</title>
+  <meta name="description" content="Bénévolat, dons et partenariats : soutenez la Prépa JBS.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Nous soutenir – Prépa JBS">
+  <meta property="og:description" content="Bénévolat, dons et partenariats : soutenez la Prépa JBS.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.prepajbs.com">
+  <meta property="og:image" content="https://www.prepajbs.com/img/og-image.jpg">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="navigation.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="img/logo.png" alt="" width="51" height="40">
+        <span>Prépa <strong>JBS</strong></span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu-principal">
+        <span class="nav-toggle-bar"></span>
+        <span class="visually-hidden">Ouvrir le menu</span>
+      </button>
+
+      <nav class="main-nav" id="menu-principal" aria-label="Menu principal">
+        <ul>
+          <li><a href="association.html">L'association</a></li>
+          <li><a href="programme.html">Le programme</a></li>
+          <li><a href="actions.html">Nos actions</a></li>
+          <li><a href="partenaires.html">Partenaires</a></li>
+          <li class="nav-cta-item"><a href="soutenir.html" class="nav-cta" aria-current="page">Nous soutenir</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <section class="container page-head tile tile-sky">
+      <div>
+        <h1>Nous soutenir</h1>
+        <p class="lead">Chaque contribution aide un lycéen tchadien à viser plus haut.</p>
+      </div>
+      
+    </section>
+
+    <section class="container section">
+      <div class="trio">
+        <article class="tile tile-sky support">
+          <h2>Devenir bénévole</h2>
+          <p>Étudiant ou jeune professionnel ? Présentez votre filière aux lycéens ou aidez-nous à préparer les élèves aux concours.</p>
+          <a class="btn btn-ink" href="#formulaire" data-support="benevole">Proposer mon aide</a>
+        </article>
+        <article class="tile tile-white support">
+          <h2>Faire un don</h2>
+          <p>Vos dons financent les ressources pédagogiques et l'organisation des sessions de présentation et de préparation.</p>
+          <a class="btn btn-ink" href="#formulaire" data-support="don">Faire un don</a>
+        </article>
+        <article class="tile tile-white support">
+          <h2>Devenir partenaire</h2>
+          <p>Entreprises, écoles et institutions : construisons ensemble des passerelles vers l'enseignement supérieur.</p>
+          <a class="btn btn-ink" href="#formulaire" data-support="partenariat">Devenir partenaire</a>
+        </article>
+      </div>
+    </section>
+    <section class="container section form-section" id="formulaire">
+      <div class="tile tile-white contact-box">
+        <div class="contact-intro">
+          <h2>Écrivez-nous</h2>
+          <p>Remplissez ce formulaire.</p>
+          <p class="contact-direct">Vous pouvez aussi nous écrire directement à <a href="mailto:contact@prepajbs.com">contact@prepajbs.com</a>.</p>
+        </div>
+
+        <!-- L'adresse de destination se modifie dans data-email ci-dessous -->
+        <form class="contact-form" data-email="contact@prepajbs.com" action="mailto:contact@prepajbs.com" method="post" enctype="text/plain">
+          <div class="field">
+            <label for="type">Type de soutien</label>
+            <select id="type" name="type" required>
+              <option value="benevole">Devenir bénévole</option>
+              <option value="don">Faire un don</option>
+              <option value="partenariat">Devenir partenaire</option>
+              <option value="autre">Autre demande</option>
+            </select>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="nom">Nom et prénom</label>
+              <input id="nom" name="nom" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="organisation">Organisation <span class="optional">(facultatif)</span></label>
+              <input id="organisation" name="organisation" type="text" autocomplete="organization">
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="email">Adresse e-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="telephone">Téléphone <span class="optional">(facultatif)</span></label>
+              <input id="telephone" name="telephone" type="tel" autocomplete="tel">
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" rows="6" required placeholder="Présentez-vous en quelques lignes et dites-nous comment vous souhaitez nous aider."></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-ink" type="submit">Préparer l'e-mail</button>
+            <p class="form-note" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-motto">Vers l'excellence, ensemble.</p>
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand">Prépa Joseph Brahim SEID</p>
+          <p>Association tchadienne à but non lucratif pour l'orientation post-bac.</p>
+          <!-- Remplacez par votre adresse e-mail réelle -->
+          <p><a class="footer-mail" href="mailto:contact@prepajbs.com">contact@prepajbs.com</a></p>
+        </div>
+        <nav aria-label="Plan du site">
+          <ul class="footer-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="association.html">L'association</a></li>
+            <li><a href="programme.html">Le programme</a></li>
+            <li><a href="actions.html">Nos actions</a></li>
+            <li><a href="partenaires.html">Partenaires</a></li>
+            <li><a href="soutenir.html">Nous soutenir</a></li>
+          </ul>
+        </nav>
+        <ul class="socials" aria-label="Réseaux sociaux">
+          <li><a href="https://www.linkedin.com/company/pr%C3%A9pa-jbs" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/people/Pr%C3%A9pa-JBS/61568700830387/" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://whatsapp.com/channel/0029VavjlKaCXC3Tal5jck3C" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+      <p class="copyright">© <span id="annee">2026</span> Prépa Joseph Brahim SEID. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
